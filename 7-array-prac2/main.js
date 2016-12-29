@@ -38,3 +38,5 @@ function arrayRange (start, noSteps, sizeSteps) {
 }
 helper.test(arrayRange(1, 4, 1), [1, 2, 3, 4])
 helper.test(arrayRange(-6, 5, 2), [-6, -4, -2, 0, 2])
+
+console.log('done');
